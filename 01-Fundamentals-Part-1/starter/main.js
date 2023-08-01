@@ -140,11 +140,37 @@ let newBalance = 10;
 // going home`);
 
 // taking decisions if/else statments
-const ageCiroma = 20;
-if (ageCiroma >= 18) {
-  console.log(`Come and have your license`);
-} else {
-  console.log(`Wait for ${18 - ageCiroma} years`);
-}
+// const ageCiroma = 20;
+// if (ageCiroma >= 18) {
+//   console.log(`Come and have your license`);
+// }
+// else {
+//   console.log(`Wait for ${18 - ageCiroma} years`);
+// }
 
 // console.log(1 - "0");
+// type conversion and type coercion
+// type conversion - converting from one data type to another manually/explicitly
+// type coercion - converting from one data type to another implicitly
+// const age = prompt("Enter your age");
+
+// console.log(String(20));
+
+// console.log(1 + "20");
+// console.log("5" - "20");
+// console.log("5" * "20");
+// console.log("5" / "20");
+// console.log("23" - "10" - 3);
+// console.log("23" - "10" + "3");
+
+// Truthy and falsy values
+console.log(Boolean(20));//true
+console.log(Boolean("Ayo"));//true
+console.log(Boolean("23"));//true
+console.log(Boolean(undefined));//false
+console.log(Boolean(null));//false
+console.log(Boolean(""));//false
+console.log(Boolean(0));//false
+console.log(Boolean(NaN));//false
+
+// in js, 5 falsy ==> undefined, null, "", 0, NaN
