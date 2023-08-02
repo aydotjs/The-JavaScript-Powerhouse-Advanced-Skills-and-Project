@@ -164,13 +164,59 @@ let newBalance = 10;
 // console.log("23" - "10" + "3");
 
 // Truthy and falsy values
-console.log(Boolean(20));//true
-console.log(Boolean("Ayo"));//true
-console.log(Boolean("23"));//true
-console.log(Boolean(undefined));//false
-console.log(Boolean(null));//false
-console.log(Boolean(""));//false
-console.log(Boolean(0));//false
-console.log(Boolean(NaN));//false
+// console.log(Boolean(20)); //true
+// console.log(Boolean("Ayo")); //true
+// console.log(Boolean("23")); //true
+// console.log(Boolean(undefined)); //false
+// console.log(Boolean(null)); //false
+// console.log(Boolean("")); //false
+// console.log(Boolean(0)); //false
+// console.log(Boolean(NaN)); //false
 
 // in js, 5 falsy ==> undefined, null, "", 0, NaN
+// 1, in a logical context
+// if (null) {
+//   console.log("Hello, the if block has been executed");
+// }
+
+// EQUALITY OPERATORS
+// >=,<=
+// ==  ----loose equality operator
+// ===  ----strict equality operator
+
+// console.log(18 == "18", "loose equality operator");//true
+// console.log(18 === "18", "strict equality operator");
+// console.log(18 != "18", "loose not equal operator");//false
+// console.log(18 !== "18", "strict not equal operator");//true
+
+// BOOLEAN LOGIC
+// console.log(true && true);//true
+// console.log(true && false);//false
+// console.log(false && true);//false
+// console.log(false && false);//false
+// console.log(true || true); //true
+// console.log(true || false); //true
+// console.log(false || true); //true
+// console.log(false || false); //false
+
+// const score = prompt("Enter your SCORE");
+// if (score >= 70 && score <= 100) {
+//   console.log("Your grade is A");
+// } else if (score >= 60 && score <= 69) {
+//   console.log("Your grade is B");
+// } else if (score >= 50 && score <= 59) {
+//   console.log("Your grade is C");
+// } else if (score >= 40 && score <= 49) {
+//   console.log("Your grade is D");
+// } else if (score < 39) {
+//   console.log("Your grade is F");
+// } else {
+//   console.log("Invalid score");
+// }
+
+// console.log(Boolean(null));
+
+if (5) {
+  console.log("Hello");
+}
+console.log(Boolean(5));
