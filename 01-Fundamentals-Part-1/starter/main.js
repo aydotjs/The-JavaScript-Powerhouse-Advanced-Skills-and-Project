@@ -216,7 +216,52 @@ let newBalance = 10;
 
 // console.log(Boolean(null));
 
-if (5) {
-  console.log("Hello");
-}
-console.log(Boolean(5));
+// if (5) {
+//   console.log("Hello");
+// }
+// console.log(Boolean(5));
+
+// STATEMMENTS AND EXPRESSION
+// console.log(`I am ${20 * 3} years old`);
+// const numbers = [5, 20, 40, 50 * 2, 10* 3];
+// console.log(numbers);
+// console.log(let a = 5);
+
+// TERNARY OPERATOR
+const age = 12;
+// let ageStatus;
+// if (age >= 18) {
+//   ageStatus = "Adult";
+// } else {
+//   ageStatus = "Not an adult";
+// }
+// const age = 12;
+const ageStatus = age > 18 ? "Adult" : "Not an Adult";
+// console.log(ageStatus);
+
+// JAVASCRIPT RELEASES
+// let password = 123456
+
+// ===================QUESTION 1============================
+
+
+
+
+
+
+// ===================QUESTION 2============================
+
+
+
+
+
+
+// ===================QUESTION 2============================
+
+
+
+
+
+
+
+// ===================QUESTION 2============================
